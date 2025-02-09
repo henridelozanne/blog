@@ -1,3 +1,10 @@
+<template>
+  <TheNavbar />
+  <div>
+    <NuxtPage />
+  </div>
+</template>
+
 <script setup>
 useHead({
   title: 'Nuxt 3 Bulma Blog Template',
@@ -21,13 +28,6 @@ useHead({
   ]
 })
 </script>
-
-<template>
-  <TheNavbar />
-  <div>
-    <NuxtPage />
-  </div>
-</template>
 
 <style>
 html,

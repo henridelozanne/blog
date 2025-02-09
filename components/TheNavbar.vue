@@ -7,7 +7,7 @@ const isMobileNavOpen = ref(false)
     <div class="container">
       <div class="navbar-brand">
         <nuxt-link to="/" class="navbar-item has-text-weight-bold is-size-5">
-          My Nuxt 3 Blog
+          Blog de programmation
         </nuxt-link>
       </div>
     </div>
